@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="weavePort">
+  <head>
+    <meta charset="utf-8">
+    <title>Weave Portability</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  </head>
+
+    <body>
+
+      <div class="headerWrapper">
+        <img id="logo" src="./img/logo.png" width="200px" height="70px"></img>
+        <div class="header">
+          <h1>Central Dashboard</h1>
+        </div>
+      </div>
+
+<div ui-view>
+
+
+
+
+      <!-- <a ui-sref="admin">Admin</a>
+      <a ui-sref="directory">Directory</a>
+      <a ui-sref="helpdesk">Weave Help Desk</a>
+      <a ui-sref="hrportal">Weave HR Portal</a>
+      <a ui-sref="supportportal">Weave Customer Support Portal</a>
+      <a ui-sref="weaveinsights">Weave Insights</a> -->
+
+
+
+
+
+
+
+  <!-- CDN Links -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+
+  <!-- Angular App -->
+  <script src="js/app.js"></script>
+
+
+  <!-- Controllers -->
+  <script src="./js/controllers/helpDeskCtrl.js"></script>
+  <script src="./js/controllers/directoryCtrl.js"></script>
+
+  <!-- Services -->
+  <script src="js/services/directoryList.js"></script>
+  <script src="js/services/directoryCrud.js"></script>
+
+
+  <!-- Directives -->
+
+
+  </body>
+</html>
